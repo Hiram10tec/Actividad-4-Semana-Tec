@@ -1,4 +1,5 @@
-"""Snake, classic arcade game.
+"""
+Snake, classic arcade game.
 
 Exercises
 
@@ -9,7 +10,8 @@ Exercises
 """
 
 from random import randrange
-from turtle import *
+from turtle import hideturtle, tracer, listen, onkey, ontimer, setup
+from turtle import done, update, clear
 
 from freegames import square, vector
 
